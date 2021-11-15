@@ -2,5 +2,5 @@
 - Site: https://nasoj.me
 - Usage: Information about myself
 
-#useage
+# usage
 I don't care if u use the code or take inseration just gimme credit :D
