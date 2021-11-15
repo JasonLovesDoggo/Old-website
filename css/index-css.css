@@ -54,9 +54,11 @@
     filter: drop-shadow(-5px 5px 0 rgba(49, 85, 184, 0.6));
     transition: filter 0.130s ease-in;
 }
-
+.bg-blurple-cust {
+    background-color: #4e5d94;
+}
 .dsc-e77-discord {
-    filter: drop-shadow(-5px 5px 0 rgba(116, 41, 179, 0.6));
+    filter: drop-shadow(-5px 5px 0 rgba(78, 93, 148, 0.6));
     transition: filter 0.130s ease-in;
 }
 
