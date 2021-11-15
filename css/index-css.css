@@ -1,0 +1,100 @@
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#FFFAFA;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: none;
+}
+
+.top-page::before {
+    content: ""; /* Important */
+    z-index: -1; /* Important */
+    position: inherit;
+    left: inherit;
+    top: inherit;
+    width: inherit;
+    height: inherit;
+    background-image: inherit;
+    background-size: cover;
+    filter: blur(2px) brightness(80%);
+}
+.top-page:hover {
+    filter: none;
+}
+.top-page {
+    background: url(../assets/bg.jpg) no-repeat center center fixed;
+    background-size: 0 0;  /* Image should not be drawn here */
+    width: 100%;
+    height: 100%;
+    position:fixed; /* Or absolute for scrollable backgrounds */
+}
+
+#page-title {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.git-e77-github {
+    filter: drop-shadow(-5px 5px 0 rgb(43, 43, 43, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.twt-e77-twitter {
+    filter: drop-shadow(-5px 5px 0 rgba(49, 85, 184, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.dsc-e77-discord {
+    filter: drop-shadow(-5px 5px 0 rgba(116, 41, 179, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.prj-e77-projects {
+    filter: drop-shadow(-5px 5px 0 rgba(189, 201, 26, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.abm-e77-aboutme {
+    filter: drop-shadow(-5px 5px 0 rgba(4, 167, 31, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.api-e77-webapi {
+    filter: drop-shadow(-5px 5px 0 rgba(167, 4, 4, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
+.git-e77-github:hover {
+    filter: none;
+}
+
+.twt-e77-twitter:hover {
+    filter: none;
+}
+
+.dsc-e77-discord:hover {
+    filter: none;
+}
+
+.prj-e77-projects:hover {
+    filter: none;
+}
+
+.abm-e77-aboutme:hover {
+    filter: none;
+}
+
+.api-e77-webapi:hover {
+    filter: none;
+}
