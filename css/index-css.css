@@ -100,3 +100,47 @@
 .api-e77-webapi:hover {
     filter: none;
 }
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.btn {
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding-top:95px;
+    margin-bottom:60px;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.btn:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.btn:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.btn:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.btn:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.btn:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.btn:nth-child(6) {
+    animation-delay: 0.6s;
+}
