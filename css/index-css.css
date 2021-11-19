@@ -60,9 +60,8 @@
     background-color: #4e5d94;
 }
 .dsc-e77-discord {
-    filter: drop-shadow(-5px 5px 0 rgba(78, 93, 148, 0.6));
+    filter: drop-shadow(-5px 5px 0 rgba(78,93,148,0.6));
     transition: filter 0.130s ease-in;
-
 }
 
 .prj-e77-projects {
