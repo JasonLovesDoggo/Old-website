@@ -79,7 +79,16 @@
     transition: filter 0.130s ease-in;
 }
 
+.api-e77-bella {
+    filter: drop-shadow(-5px 5px 0 rgba(165, 55, 253, 0.6));
+    transition: filter 0.130s ease-in;
+}
+
 .git-e77-github:hover {
+    filter: none;
+}
+
+.git-e77-bella:hover {
     filter: none;
 }
 
